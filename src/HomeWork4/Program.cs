@@ -9,6 +9,11 @@ namespace HomeWork4
             var pinguin = new Pinguin();
             Console.WriteLine(pinguin.Kind);
             Console.WriteLine(pinguin.Say());
+            pinguin.Dive();
+            pinguin.Fly();
+            pinguin.Run();
+            pinguin.Swim();
+            pinguin.Walk();
         }
     }
 }
