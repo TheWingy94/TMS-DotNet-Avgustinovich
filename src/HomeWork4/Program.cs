@@ -6,7 +6,9 @@ namespace HomeWork4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var pinguin = new Pinguin();
+            Console.WriteLine(pinguin.Kind);
+            Console.WriteLine(pinguin.Say());
         }
     }
 }
