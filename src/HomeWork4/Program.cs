@@ -14,6 +14,15 @@ namespace HomeWork4
             pinguin.Run();
             pinguin.Swim();
             pinguin.Walk();
+
+            Console.WriteLine("=====================================");
+            
+            var cow = new Cow();
+            Console.WriteLine(cow.Kind);
+            Console.WriteLine(cow.Say());
+            cow.Run();
+            cow.Walk();
+
         }
     }
 }

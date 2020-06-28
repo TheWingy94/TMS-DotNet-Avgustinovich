@@ -4,7 +4,7 @@ namespace HomeWork4
 {
     public class Pinguin : Animal, IFlying, ITerrestrial, ISwimming
     {
-        public Pinguin() : base("Pinguin")
+        public Pinguin() : base("пингвин")
         {
         }
 
