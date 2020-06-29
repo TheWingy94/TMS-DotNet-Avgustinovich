@@ -16,9 +16,7 @@ namespace HomeWork4
         }
         public Animal(string kind)
         {
-            Console.WriteLine("базовый класс, до установки значения");
             _kind = kind;
-            Console.WriteLine("базовый класс, после установки значения");
         }
         public abstract string Say();
     }

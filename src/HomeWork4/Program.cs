@@ -2,7 +2,7 @@
 
 namespace HomeWork4
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
@@ -23,6 +23,15 @@ namespace HomeWork4
             cow.Run();
             cow.Walk();
 
+            Console.WriteLine("=====================================");
+
+            var human = new Human();
+            Console.WriteLine(human.Kind);
+            Console.WriteLine(human.Say());
+            human.Run();
+            human.Swim();
+            human.Dive();
+            human.Walk();
         }
     }
 }

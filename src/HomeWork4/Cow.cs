@@ -6,8 +6,6 @@ namespace HomeWork4
     {
         public Cow() : base("корова")
         {
-            Console.WriteLine(Kind);
-            Console.WriteLine("создаём класс \"корова\"");
         }
 
         public void Run()
